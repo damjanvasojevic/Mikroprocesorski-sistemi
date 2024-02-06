@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Automatska detekcija malih predmeta" company="Yolov8" webLink="http://" view-date="2024-01-10" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3300" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#00cc33 #ccff99 #99ff33 #ffff66 #ff3333 #000066 #0000ff #0099ff #33ffff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="c527d6b16bcf41759a924243c5b0343d" name="Prikupljanje podataka" color="#33ffff" meeting="false" start="2024-01-10" duration="2" complete="0" thirdDate="2024-02-02" thirdDate-constraint="0" priority="2" expand="true">
+            <notes><![CDATA[Nikola Jevremovic]]></notes>
+        </task>
+        <task id="1" uid="748efdb798ce4d678545fc2e32c84267" name="Analiza podataka" color="#0099ff" meeting="false" start="2024-01-10" duration="2" complete="0" thirdDate="2024-01-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Nikola Jevremovic]]></notes>
+        </task>
+        <task id="2" uid="c2ae14d165304b559689773119b53ef7" name="Optimizacija koda" color="#0000ff" meeting="false" start="2024-01-11" duration="3" complete="0" thirdDate="2024-01-10" thirdDate-constraint="0" priority="2" expand="true">
+            <notes><![CDATA[Damjan Vasojevic]]></notes>
+        </task>
+        <task id="8" uid="e2c3dc7df6984972b9fc9bb339bf4b03" name="Implementacija upozorenja ili notifikacija pri detekciji određenih događaja" color="#ccff99" meeting="false" start="2024-01-11" duration="3" complete="0" thirdDate="2024-01-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Damjan Vasojevic]]></notes>
+        </task>
+        <task id="4" uid="36efa54fabe441e3a22e6f52130a2785" name="Testiranje performansi" color="#000066" meeting="false" start="2024-01-16" duration="2" complete="0" thirdDate="2024-01-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Damjan Vasojevic
+]]></notes>
+        </task>
+        <task id="5" uid="2bf5d30f57ed4415b9ce862c95b7a61e" name="Pisanje dokumentacije" color="#ff3333" meeting="false" start="2024-01-18" duration="3" complete="0" thirdDate="2024-01-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Vladimir Vukcevic]]></notes>
+        </task>
+        <task id="9" uid="20112a11ba654f18bf54e50de9cc5bc2" name="Prikazivanje rezultata detekcije na GUI-u" color="#00cc33" meeting="false" start="2024-01-23" duration="3" complete="0" thirdDate="2024-01-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Nikola Jevremovic]]></notes>
+        </task>
+        <task id="6" uid="89d7f76e071742279f066003ca0f3e83" name="Razvoj funkcionalnosti" color="#ffff66" meeting="false" start="2024-01-26" duration="2" complete="0" thirdDate="2024-01-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Damjan Vasojevic
+]]></notes>
+        </task>
+        <task id="7" uid="0f1ab15ed63a4c009be47e5391fb5b77" name="Kreiranje korisničkih uputstava" color="#99ff33" meeting="false" start="2024-01-30" duration="3" complete="0" thirdDate="2024-01-10" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Vladimir Vukcevic]]></notes>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
